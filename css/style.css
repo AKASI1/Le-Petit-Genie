@@ -197,8 +197,8 @@ h6,
   flex-direction: column;
 }
 .owl-carousel .owl-item img {
-    max-height: 600px;
-  }
+  max-height: 600px;
+}
 
 @media (max-width: 768px) {
   .owl-carousel .owl-item img {
@@ -233,6 +233,10 @@ h6,
     top: unset;
     transform: translateX(50%);
   }
+
+  .page-header {
+    height: 150px;
+  }
 }
 
 .header-carousel .owl-nav .owl-prev,
@@ -258,9 +262,16 @@ h6,
 }
 
 .page-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../img/carousel-1.jpg) center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/bg2.jpeg) center center no-repeat;
   background-size: cover;
+  height: 430px;
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    height: 150px;
+  }
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
